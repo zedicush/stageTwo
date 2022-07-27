@@ -11,7 +11,6 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
-###close and  open the terminal for the change to take effects
 ##setup en environment
 conda create -y --name NGS
 ###following command allows me to activate env from bash file
